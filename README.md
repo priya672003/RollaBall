@@ -41,8 +41,8 @@ Step 8:
 Save the unity file and take screenshot.
 
 
-## Program:
-
+### Program:
+```python3
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         GetComponent<Rigidbody>().AddForce(x, y, z);
     }
 }
-
+```
 ## Output:
 
 ![image](https://user-images.githubusercontent.com/81132849/166142770-a65a9ff1-e516-4009-8d19-40740a3cda0c.png)
